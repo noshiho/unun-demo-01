@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CDG 01 Copy Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="number-nav" aria-label="section navigation">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">7</a>
+  </nav>
+
+  <main class="slideshow" id="slideshow" aria-label="image slideshow">
+    <div class="slide-track" id="slideTrack">
+
+      <section class="slide slide--tall">
+        <img src="assets/img01.jpg" alt="">
+      </section>
+
+      <section class="slide">
+        <img src="assets/img02.jpg" alt="">
+      </section>
+
+      <section class="slide">
+        <img src="assets/img03.jpg" alt="">
+      </section>
+
+      <section class="slide">
+        <img src="assets/img04.jpg" alt="">
+      </section>
+
+      <section class="slide slide--tall">
+        <img src="assets/img05.jpg" alt="">
+      </section>
+
+      <section class="slide">
+        <img src="assets/img06.jpg" alt="">
+      </section>
+
+      <!-- 無限ループ用：1枚目の複製 -->
+      <section class="slide slide--tall slide--clone">
+        <img src="assets/img01.jpg" alt="">
+      </section>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
